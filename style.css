@@ -1,43 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
 * {
     margin: 3px;
     padding: 3px;
     box-sizing: border-box;
 }
-  
-  body {
+
+body {
     font-family: "Reddit Sans", sans-serif;
     background-color: #f2f2f2;
-  }
-  
-  .main {
+}
+
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-  }
-  
-  .container {
+}
+
+.container {
     text-align: center;
     margin-top: 20px;
-  }
-  
-  .searchBar {
+}
+
+.searchBar {
     display: inline-block;
     background-color: #ffffff;
     border-radius: 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .searchField {
+}
+
+.searchField {
     padding: 15px 20px;
     font-size: 16px;
     border: none;
     border-radius: 30px;
     outline: none;
-  }
-  
-  .searchBtn {
+}
+
+.searchBtn {
     padding: 15px 30px;
     font-size: 16px;
     font-weight: 600;
@@ -47,53 +48,50 @@
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
-  }
-  
-  .searchBtn:hover {
+}
+
+.searchBtn:hover {
     background-color: #697c8f;
-  }
-  
-  .searchBtn:active {
+}
+
+.searchBtn:active {
     background-color: #337bd4;
-  }
-  
-  .foodDirectory {
+}
+
+.foodDirectory {
     margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     gap: 20px;
-  }
-  
-  
-  .itemImg {
+}
+
+.itemImg {
     width: 100%;
     border-radius: 10px;
-  }
-  
-  .itemCard {
+}
+
+.itemCard {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: transform 0.3s;
-  }
-  
-  .itemCard:hover {
+}
+
+.itemCard:hover {
     transform: translateY(-3px);
-  }
-  
-  .tag {
+}
+
+.tag {
     margin-top: 10px;
     padding: 5px 10px;
     background-color: #40a57827;
     color: #40a578;
     border-radius: 6px;
-  }
-  
-  .details {
+}
+
+.details {
     margin-top: 10px;
     font-size: 14px;
     line-height: 1.5;
-  }
-  
-  
+}
